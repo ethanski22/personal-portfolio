@@ -89,8 +89,8 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "src\pdfs\Ethan Skowronski Resume.pdf";
+export const repoLink = "https://github.com/ethanski22/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/mittal-parth";
 
@@ -103,10 +103,10 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  {
-    id: "achievements",
-    title: "Achievements",
-  },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
   {
     id: "projects",
     title: "Projects",
@@ -130,110 +130,103 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
-  },
-  {
-    id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
-  },
+    title: "University of Cincinnati, Cincinnati, OH",
+    degree: "Bachelor of Science",
+    duration: "August 2022 - May 2027",
+    content1: "Major: Computer Science",
+    content2: "Accepted into the ACCEND program, a 5-year program that allows students to earn a Bachelor's and Master's degree in 5 years.",
+    content3: "GPA: 3.52"
+  }
 ];
 
 // Add your past achievments here for example - rankings in hackathons/events
-export const achievements = [
-  {
-    id: "a-1",
-    icon: ethindia,
-    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "True Network's Winner, Polkadot's 1st Runner Up",
-    content2: "Lit Protocol's 2nd Runner Up",
-    content3: "Coinbase Pool Prize, Base Top 10",
-    article: "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
-    project: "https://devfolio.co/projects/khoj-3336",
-    youtube: "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
-  },
-  {
-    id: "a-2",
-    icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
-  },
-  {
-    id: "a-3",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-4",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-5",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-6",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-7",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-8",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
-  },
-];
+// export const achievements = [
+//   {
+//     id: "a-1",
+//     icon: ethindia,
+//     event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
+//     position: "Winner",
+//     content1: "True Network's Winner, Polkadot's 1st Runner Up",
+//     content2: "Lit Protocol's 2nd Runner Up",
+//     content3: "Coinbase Pool Prize, Base Top 10",
+//     article: "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
+//     project: "https://devfolio.co/projects/khoj-3336",
+//     youtube: "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
+//   },
+//   {
+//     id: "a-2",
+//     icon: ethglobal,
+//     event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+//     position: "Winner",
+//     content1: "Top 12 winners among 20k+ registrations",
+//     content2: "One of Polygon's Best Public Goods",
+//     content3: "Best Module on Biconomy SDK",
+//     article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+//     project: "https://devfolio.co/projects/chargeswap-3527",
+//     youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+//   },
+//   {
+//     id: "a-3",
+//     icon: polkadot,
+//     event: "Polkadot Hackathon: Europe Edition",
+//     position: "2nd Runner Up in the ink! Smart Contract Category",
+//     content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+//     content2: "",
+//     content3: "",
+//     github: "https://github.com/pranav2305/GreenTrust",
+//   },
+//   {
+//     id: "a-4",
+//     icon: lightspeed,
+//     event: "Warpspeed by Lightspeed",
+//     position: "1st Runner Up",
+//     content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
+//     content2: "Top 3 projects using Replit",
+//     content3: "1st Runner Up by Amazon Web Services (AWS)",
+//     article: "https://shorturl.at/fhjsT",
+//   },
+//   {
+//     id: "a-5",
+//     icon: dennisivy,
+//     event: "September Hackathon by Dennis Ivy",
+//     position: "Winner",
+//     content1: "Rated the best portfolio website among 450+ participants across the globe.",
+//     content2: "",
+//     content3: "",
+//     youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
+//     project: "https://parthmittal.netlify.app/",
+//   },
+//   {
+//     id: "a-6",
+//     icon: manipal,
+//     event: "Manipal Hackathon'22",
+//     position: "Consolation Prize",
+//     content1: "Top 10 among 500+ teams across India",
+//     content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
+//     content3: "",
+//     article: "https://shorturl.at/exEIQ",
+//   },
+//   {
+//     id: "a-7",
+//     icon: icon,
+//     event: "ICON Hyperbuild Hackathon",
+//     position: "Honorable Mention",
+//     content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
+//     content2: "",
+//     content3: "",
+//     project: "https://devpost.com/software/green-trust-xj2w6g",
+//   },
+//   {
+//     id: "a-8",
+//     icon: ethforall,
+//     event: "ETHForAll 2023",
+//     position: "Top 3 Superfluid Projects",
+//     content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
+//     content2: "",
+//     content3: "",
+//     project: "https://devfolio.co/projects/green-trust-ed14",
+//   },
+// ];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
@@ -397,109 +390,43 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "London Computer Systems, Cincinnati, OH",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "https://www.lcs.com",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Quality Assurance Co-op",
+        duration: "Jan 2025 - Present",
         content: [
           {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Collaborated with developers to test and validate 5+ new features monthly, ensuring seamless functionality and optimal performance across platforms",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
+            text: "ColIdentified, documented, and tracked software defects using Jira, reducing critical bugs by 25% and improving overall product stability",
+            link: "",
+          },
+          {
+            text: "Executed test cases and analyzed results to enhance software reliability",
+            link: "",
+          },
+          {
+            text: "Outperformed team benchmarks by executing 15+ test cases per week, identifying 25% more defects than the average tester, leading to improved software quality",
+            link: "",
+          },
+          {
+            text: "Actively contributed to agile development by participating in daily stand-ups, sprint retrospectives, and weekly planning meetings, ensuring stable product deployments",
+            link: "",
+          },
+          {
+            text: "Tools: Jira, C#, HTML, CSS, TypeScript, GitLab, Kubernetes, VSCode, Insomnia, Rancher, HeidiSQL",
+            link: "",
           }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
-    positions: [
-      {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
-          },
-        ],
-      },
-    ],
+        ]
+      }
+    ]
   }
-];
+]; 
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
