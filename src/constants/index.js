@@ -103,10 +103,10 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  // {
-  //   id: "achievements",
-  //   title: "Achievements",
-  // },
+  {
+    id: "achievements",
+    title: "Achievements",
+  },
   {
     id: "projects",
     title: "Projects",
@@ -140,20 +140,20 @@ export const educationList = [
 ];
 
 // Add your past achievments here for example - rankings in hackathons/events
-// export const achievements = [
-//   {
-//     id: "a-1",
-//     icon: ethindia,
-//     event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-//     position: "Winner",
-//     content1: "True Network's Winner, Polkadot's 1st Runner Up",
-//     content2: "Lit Protocol's 2nd Runner Up",
-//     content3: "Coinbase Pool Prize, Base Top 10",
-//     article: "",
-//     project: "",
-//     youtube: "",
-//   }
-// ];
+export const achievements = [
+  {
+    id: "a-1",
+    icon: ethindia,
+    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
+    position: "Winner",
+    content1: "True Network's Winner, Polkadot's 1st Runner Up",
+    content2: "Lit Protocol's 2nd Runner Up",
+    content3: "Coinbase Pool Prize, Base Top 10",
+    article: "",
+    project: "",
+    youtube: "",
+  }
+];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
