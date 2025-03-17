@@ -7,13 +7,13 @@ import {
   Hero,
   Education,
   SkillsAndExperience,
-  ExtraCurricular,
+  //ExtraCurricular,
   Footer,
-  OpenSource,
+  //OpenSource,
   Projects,
-  BlogPosts,
+  //BlogPosts,
   Loading,
-  Achievements,
+  //Achievements,
 } from "./components";
 
 const App = () => {
