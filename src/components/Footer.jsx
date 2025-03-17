@@ -36,7 +36,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-2">
           {/* styles is a prop */}
-          <a href="src\pdfs\EthanSkowronskiResume.pdf" target="_blank" download="EthanSkowronskiResume.pdf">
+          <a href={resumeLink} target="_blank" download="EthanSkowronskiResume.pdf">
             <Button styles="mt-10 mr-3 inline-flex items-center justify-center" text="Resume" icon={AiFillGithub} />
           </a>
           <a href={repoLink} target="_blank">
