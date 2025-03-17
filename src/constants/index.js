@@ -139,7 +139,7 @@ export const educationList = [
   }
 ];
 
-// Add your past achievments here for example - rankings in hackathons/events
+// Add your past achievements here for example - rankings in hackathons/events
 export const achievements = [
   {
     id: "a-1",
