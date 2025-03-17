@@ -5,7 +5,7 @@ import { profilePic } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
-import resume from "../src/pdfs/EthanSkowronskiResume.pdf";
+import resume from "src/pdfs/EthanSkowronskiResume.pdf";
 
 const Footer = () => (
   <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
