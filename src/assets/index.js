@@ -1,5 +1,5 @@
 import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./profile-pic.jpg"; // Change the picture to a better quality
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
