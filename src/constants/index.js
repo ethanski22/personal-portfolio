@@ -74,7 +74,6 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
-  SiOpenai,
   SiAmaxonAWS,
   SiPandas,
   SiNumpy,
