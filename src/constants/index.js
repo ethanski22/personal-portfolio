@@ -586,7 +586,7 @@ export const aboutMe = {
     name: "Ethan Skowronski",
     githubUsername: 'ethanski22',
     tagLine: "tagline",
-    intro: "Intro"
+    intro: "I am a third year student at the University of Cincinnati studying Computer Science. Recently I was accepted into the ACCEND program where I'll be able to complete my masters in Artificial Intelligence at the same time as my undergrad degree."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
