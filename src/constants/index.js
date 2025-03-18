@@ -74,7 +74,7 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
-  SiOpenAi,
+  SiOpenai,
   SiAmaxonAWS,
   SiPandas,
   SiNumpy,
@@ -300,7 +300,7 @@ export const skills = [
       },
       {
         id: "t-8",
-        icon: SiOpenAi,
+        icon: SiOpenai,
         name: "OpenAI API",
       },
       {
