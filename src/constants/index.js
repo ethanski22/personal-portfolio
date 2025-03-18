@@ -25,7 +25,8 @@ import {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  ucseal
 } from "../assets";
 
 import {
@@ -129,7 +130,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: ucseal,
     title: "University of Cincinnati, Cincinnati, OH",
     degree: "Bachelor of Science",
     duration: "August 2022 - May 2027",
