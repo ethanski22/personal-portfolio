@@ -78,7 +78,9 @@ import {
   SiNumpy,
   SiScikitlearn,
   SiTensorflow,
-  SiAssemblyscript
+  SiAssemblyscript,
+  SiDiscord,
+  SiUnity
 } from "react-icons/si";
 
 import {
@@ -357,37 +359,53 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "",
-    link: "",
-    image: comicify_ai,
+    title: "OpenAI API",
+    github: "https://github.com/ethanski22/AI-and-Python",
+    link: "https://github.com/ethanski22/AI-and-Python",
+    image: comicify_ai, // change image
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Utilize OpenAI's API for various integrations",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
         icon: SiOpenai,
         name: "OpenAI"
       },
       {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        id: "icon-2",
+        icon: SiPython,
+        name: "Python"
       },
       {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        id: "icon-3",
+        icon: TbBrandCSharp,
+        name: "C#"
+      },
+      {
+        id: "icon-4",
+        icon: SiDiscord,
+        name: "Discord"
+      },
+    ],
+  },
+  {
+    id: "project-2",
+    title: "Deck Builder Game",
+    github: "https://github.com/ethanski22/firstDeckBuilder",
+    link: "https://github.com/ethanski22/firstDeckBuilder",
+    image: comicify_ai, // change image
+    content:
+      "My first deck builder using Unity",
+    stack: [
+      {
+        id: "icon-1",
+        icon: TbBrandCSharp,
+        name: "C#"
+      },
+      {
+        id: "icon-2",
+        icon: SiUnity,
+        name: "Unity"
       },
     ],
   },
