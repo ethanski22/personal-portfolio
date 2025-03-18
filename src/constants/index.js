@@ -82,7 +82,8 @@ import {
 } from "react-icons/si";
 
 import {
-  TbBrandCSharp
+  TbBrandCSharp,
+  TbSql
 } from "react-icons/tb";
 
 import {
@@ -99,7 +100,7 @@ import {
   FaGolang
 } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { DiCss3, DiJava, DiSqllite, DiRuby } from "react-icons/di";
 
 // export const resumeLink = "src/pdfs/EthanSkowronskiResume.pdf";
 export const repoLink = "https://github.com/ethanski22/personal-portfolio";
@@ -204,7 +205,7 @@ export const skills = [
       },
       {
         id: "pl-7",
-        icon: DiMsqlServer,
+        icon: TbSql,
         name: "SQL",
       },
       {
@@ -269,8 +270,8 @@ export const skills = [
       },
       {
         id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        icon: DiSqllite,
+        name: "SQLite",
       },
       {
         id: "t-3",
