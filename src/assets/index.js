@@ -32,6 +32,7 @@ import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
 import EthanSkowronskiResume from "./EthanSkowronskiResume.pdf";
 import ucseal from "./ucseal.png";
+import lcs from "./lcs.png";
 
 export {
   menu,
@@ -67,5 +68,6 @@ export {
   ethforall,
   ethindia,
   EthanSkowronskiResume,
-  ucseal
+  ucseal,
+  lcs
 };

@@ -26,7 +26,8 @@ import {
   icon,
   ethforall,
   ethindia,
-  ucseal
+  ucseal,
+  lcs
 } from "../assets";
 
 import {
@@ -319,7 +320,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "London Computer Systems, Cincinnati, OH",
-    logo: oracle,
+    logo: lcs,
     link: "https://www.lcs.com",
     positions: [
       {
