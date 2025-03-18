@@ -89,7 +89,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "src/pdfs/EthanSkowronskiResume.pdf";
+// export const resumeLink = "src/pdfs/EthanSkowronskiResume.pdf";
 export const repoLink = "https://github.com/ethanski22/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/ethan-skowronski/";

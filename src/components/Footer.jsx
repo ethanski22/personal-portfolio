@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
-import { profilePic } from "../assets";
+import { profilePic, EthanSkowronskiResume } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
@@ -36,7 +36,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-2">
           {/* styles is a prop */}
-          <a href={resumeLink} download="EthanSkowronskiResume.pdf">
+          <a href={EthanSkowronskiResume} download="EthanSkowronskiResume.pdf">
             <Button styles="mt-10 mr-3 inline-flex items-center justify-center" text="Resume" icon={AiFillGithub} />
           </a>
           <a href={repoLink} target="_blank">
