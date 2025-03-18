@@ -80,9 +80,12 @@ import {
   SiNumpy,
   SiScikitlearn,
   SiTensorflow,
-  siCsharp,
   siAssemplyscript
 } from "react-icons/si";
+
+import {
+  TbBrandCSharp
+} from "react-icons/tb";
 
 import {
   FaHardHat,
@@ -172,7 +175,7 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: siCsharp,
+        icon: TbBrandCSharp,
         name: "C#",
       },
       {
