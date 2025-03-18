@@ -74,7 +74,6 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
-  SiAmaxonAWS,
   SiPandas,
   SiNumpy,
   SiScikitlearn,
@@ -88,7 +87,8 @@ import {
 
 import {
   FaHardHat,
-  FaRust
+  FaRust,
+  FaAws
 } from "react-icons/fa";
 
 import {
@@ -304,7 +304,7 @@ export const skills = [
       },
       {
         id: "t-9",
-        icon: SiAmaxonAWS,
+        icon: FaAws,
         name: "AWS",
       },
     ],
