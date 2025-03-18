@@ -73,7 +73,15 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiOpenAi,
+  SiAmaxonAWS,
+  SiPandas,
+  SiNumpy,
+  SiScikitlearn,
+  SiTensorflow,
+  siCsharp,
+  siAssemplyscript
 } from "react-icons/si";
 
 import {
@@ -164,7 +172,7 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
+        icon: siCsharp,
         name: "C#",
       },
       {
@@ -179,28 +187,28 @@ export const skills = [
       },
       {
         id: "pl-4",
-        icon: FaGolang,
+        icon: SiJavascript,
         name: "JavaScript",
       },
       {
         id: "pl-5",
-        icon: FaRust,
+        icon: AiFillHtml5,
         name: "HTML",
       },
       {
         id: "pl-6",
-        icon: DiJava,
+        icon: DiCss3,
         name: "CSS",
       },
       {
         id: "pl-7",
-        icon: SiC,
+        icon: DiMsqlServer,
         name: "SQL",
       },
       {
         id: "pl-8",
-        icon: AiFillHtml5,
-        name: "Asembly",
+        icon: siAssemplyscript,
+        name: "Assembly",
       }
     ],
   },
@@ -209,42 +217,42 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
+        icon: SiDotnet,
         name: ".NET",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
+        icon: SiPandas,
         name: "Pandas",
       },
       {
         id: "f-3",
-        icon: SiReact,
+        icon: SiNumpy,
         name: "NumPy",
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
+        icon: SiScikitlearn,
         name: "Scikit-learn",
       },
       {
         id: "f-5",
         icon: SiTailwindcss,
-        name: "Matplotlib",
+        name: "Matplotlib", // Need a icon for
       },
       {
         id: "f-6",
-        icon: SiJquery,
+        icon: SiTensorflow,
         name: "TensorFlow",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
+        icon: SiReact,
         name: "ReactJS",
       },
       {
         id: "f-8",
-        icon: SiDotnet,
+        icon: SiGraphql,
         name: "GraphQL",
       },
     ],
@@ -289,12 +297,12 @@ export const skills = [
       },
       {
         id: "t-8",
-        icon: SiNetlify,
+        icon: SiOpenAi,
         name: "OpenAI API",
       },
       {
         id: "t-9",
-        icon: SiVite,
+        icon: SiAmaxonAWS,
         name: "AWS",
       },
     ],
