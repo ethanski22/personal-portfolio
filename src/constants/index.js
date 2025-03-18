@@ -585,7 +585,7 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Ethan Skowronski",
     githubUsername: 'ethanski22',
-    tagLine: "I am a third year student at the University of Cincinnati studying Computer Science. Recently I was accepted into the ACCEND program where I'll be able to complete my masters in Artificial Intelligence at the same time as my undergrad degree.",
+    tagLine: "Third Year Student at UC | Machine Learning | Python | C#",
     intro: "Intro"
 }
 
