@@ -80,7 +80,7 @@ import {
   SiNumpy,
   SiScikitlearn,
   SiTensorflow,
-  siAssemplyscript
+  SiAssemblyscript
 } from "react-icons/si";
 
 import {
@@ -210,7 +210,7 @@ export const skills = [
       },
       {
         id: "pl-8",
-        icon: siAssemplyscript,
+        icon: SiAssemblyscript,
         name: "Assembly",
       }
     ],
