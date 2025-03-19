@@ -33,6 +33,8 @@ import ethindia from "./ethindia.png";
 import EthanSkowronskiResume from "./EthanSkowronskiResume.pdf";
 import ucseal from "./ucseal.png";
 import lcs from "./lcs.jpg";
+import openai from "./openai.png";
+import unity from "./unity.png";
 
 export {
   menu,
@@ -69,5 +71,7 @@ export {
   ethindia,
   EthanSkowronskiResume,
   ucseal,
-  lcs
+  lcs,
+  openai,
+  unity
 };

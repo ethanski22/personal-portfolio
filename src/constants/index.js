@@ -27,7 +27,9 @@ import {
   ethforall,
   ethindia,
   ucseal,
-  lcs
+  lcs,
+  openai,
+  unity
 } from "../assets";
 
 import {
@@ -362,7 +364,7 @@ export const projects = [
     title: "OpenAI API",
     github: "https://github.com/ethanski22/AI-and-Python",
     link: "https://github.com/ethanski22/AI-and-Python",
-    image: comicify_ai, // change image
+    image: openai,
     content:
       "Utilize OpenAI's API for various integrations",
     stack: [
@@ -393,7 +395,7 @@ export const projects = [
     title: "Deck Builder Game",
     github: "https://github.com/ethanski22/firstDeckBuilder",
     link: "https://github.com/ethanski22/firstDeckBuilder",
-    image: comicify_ai, // change image
+    image: unity, // change image
     content:
       "My first deck builder using Unity",
     stack: [
