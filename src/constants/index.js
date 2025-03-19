@@ -364,7 +364,7 @@ export const projects = [
     title: "OpenAI API",
     github: "https://github.com/ethanski22/AI-and-Python",
     link: "https://github.com/ethanski22/AI-and-Python",
-    image: openai,
+    image: SiOpenai,
     content:
       "Utilize OpenAI's API for various integrations",
     stack: [
