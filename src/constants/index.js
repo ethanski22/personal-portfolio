@@ -88,7 +88,8 @@ import {
 
 import {
   TbBrandCSharp,
-  TbSql
+  TbSql,
+  TbLego
 } from "react-icons/tb";
 
 import {
@@ -104,8 +105,6 @@ import {
 import {
   FaGolang
 } from "react-icons/fa6";
-
-import { PiLego } from "react-icons/pi";
 
 import { DiCss3, DiJava, DiSqllite, DiRuby } from "react-icons/di";
 
@@ -433,7 +432,7 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: PiLego,
+        icon: TbLego,
         name: "Lego EV3 Dev Kit"
       },
     ],
