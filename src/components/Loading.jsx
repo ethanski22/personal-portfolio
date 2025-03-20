@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={ethan} alt="Ethan Skowronski" className="w-[410px] h-[50px]" />
+      <img src={ethan} alt="Ethan Skowronski" className="w-[290px] h-[69px]" />
     </motion.div>
   );
 };
