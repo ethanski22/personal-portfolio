@@ -36,6 +36,7 @@ import lcs from "./lcs.jpg";
 import openai from "./openai.png";
 import unity from "./unity.png";
 import lego from "./lego.png";
+import ethan from "./ethan.png";
 
 export {
   menu,
@@ -75,5 +76,6 @@ export {
   lcs,
   openai,
   unity,
-  lego
+  lego,
+  ethan
 };
