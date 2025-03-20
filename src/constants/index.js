@@ -418,7 +418,7 @@ export const projects = [
     title: "Engineering Design Project",
     image: lego,
     content:
-      "Engineering design thinking robot project 4 team 028",
+      "Engineering Design Thinking, project 4, team 028, design a robot to traverse a factory and collect/identify objects",
     stack: [
       {
         id: "icon-1",
