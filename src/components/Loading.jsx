@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { parthmittal } from "../assets";
+import { ethan } from "../assets";
 
 const Loading = () => {
   return (
@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={parthmittal} alt="Parth Mittal" className="w-[80px] h-[80px]" />
+      <img src={ethan} alt="Ethan Skowronski" className="w-[410px] h-[50px]" />
     </motion.div>
   );
 };
