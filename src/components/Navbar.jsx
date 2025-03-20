@@ -13,7 +13,7 @@ const Navbar = () => {
         <img
           src={ethan} // Change picture
           alt="Ethan Skowronski"
-          className="w-[255px] h-[25px]"
+          className="w-[255px] h-[30px]"
         />
       </a>
 
