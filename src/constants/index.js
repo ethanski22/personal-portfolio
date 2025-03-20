@@ -461,49 +461,7 @@ export const blogPosts = [
         name: "tag 03"
       },
     ],
-  },
-  {
-    id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
-      },
-      {
-        id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
-      },
-    ],
-  },
-  {
-    id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01"
-      },
-      {
-        id: "tag-2",
-        name: "tag 03"
-      },
-      {
-        id: "tag-3",
-        name: "tag 03"
-      },
-    ],
-  },
+  }
 ];
 
 // Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
@@ -511,17 +469,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "Organisations",
-    value: "2+",
+    value: "0",
   },
   {
     id: "stats-2",
     title: "Issues Opened",
-    value: "6+",
+    value: "0",
   },
   {
     id: "stats-3",
     title: "Pull Requests",
-    value: "6+",
+    value: "0",
   },
 ];
 
