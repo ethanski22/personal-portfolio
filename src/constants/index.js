@@ -334,7 +334,7 @@ export const experiences = [
             link: "",
           },
           {
-            text: "ColIdentified, documented, and tracked software defects using Jira, reducing critical bugs by 25% and improving overall product stability",
+            text: "Identified, documented, and tracked software defects using Jira, reducing critical bugs by 25% and improving overall product stability",
             link: "",
           },
           {
