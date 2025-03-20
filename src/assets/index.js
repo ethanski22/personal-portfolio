@@ -1,5 +1,5 @@
 import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./profile-pic.jpg"; // Change the picture to a better quality
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
@@ -30,6 +30,13 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import ethindia from "./ethindia.png";
+import EthanSkowronskiResume from "./EthanSkowronskiResume.pdf";
+import ucseal from "./ucseal.png";
+import lcs from "./lcs.jpg";
+import openai from "./openai.png";
+import unity from "./unity.png";
+import lego from "./lego.png";
+import ethan from "./ethan.png";
 
 export {
   menu,
@@ -63,5 +70,12 @@ export {
   manipal,
   icon,
   ethforall,
-  ethindia
+  ethindia,
+  EthanSkowronskiResume,
+  ucseal,
+  lcs,
+  openai,
+  unity,
+  lego,
+  ethan
 };

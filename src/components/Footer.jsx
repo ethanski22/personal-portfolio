@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
-import { profilePic } from "../assets";
+import { profilePic, EthanSkowronskiResume } from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
@@ -36,7 +36,7 @@ const Footer = () => (
 
         <div className="grid grid-cols-2">
           {/* styles is a prop */}
-          <a href={resumeLink} target="_blank">
+          <a href={EthanSkowronskiResume} download="EthanSkowronskiResume.pdf">
             <Button styles="mt-10 mr-3 inline-flex items-center justify-center" text="Resume" icon={AiFillGithub} />
           </a>
           <a href={repoLink} target="_blank">
@@ -59,7 +59,7 @@ const Footer = () => (
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with 💙 by Parth Mittal & the Open Source Community
+        Made with 💙 by Ethan Skowronski, Parth Mittal & the Open Source Community
       </p>
     </div>
   </footer>
