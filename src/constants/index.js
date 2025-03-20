@@ -29,7 +29,8 @@ import {
   ucseal,
   lcs,
   openai,
-  unity
+  unity,
+  lego
 } from "../assets";
 
 import {
@@ -103,6 +104,8 @@ import {
 import {
   FaGolang
 } from "react-icons/fa6";
+
+import { PiLego } from "react-icons/pi";
 
 import { DiCss3, DiJava, DiSqllite, DiRuby } from "react-icons/di";
 
@@ -395,7 +398,7 @@ export const projects = [
     title: "Deck Builder Game",
     github: "https://github.com/ethanski22/firstDeckBuilder",
     link: "https://github.com/ethanski22/firstDeckBuilder",
-    image: unity, // change image
+    image: unity,
     content:
       "My first deck builder using Unity",
     stack: [
@@ -408,6 +411,30 @@ export const projects = [
         id: "icon-2",
         icon: SiUnity,
         name: "Unity"
+      },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "Engineering Design Project",
+    image: lego,
+    content:
+      "Engineering design thinking robot project 4 team 028",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiVisualstudiocode,
+        name: "Visual Studio Code"
+      },
+      {
+        id: "icon-3",
+        icon: PiLego,
+        name: "Lego EV3 Dev Kit"
       },
     ],
   },
