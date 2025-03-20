@@ -35,7 +35,7 @@ import ucseal from "./ucseal.png";
 import lcs from "./lcs.jpg";
 import openai from "./openai.png";
 import unity from "./unity.png";
-import lego from "./lego.png";
+import lego from "./lego.jpg";
 
 export {
   menu,
