@@ -1,6 +1,7 @@
 import profilePic from "./profile-pic.jpg"; // Change the picture to a better quality
 import menu from "./menu.svg";
 import close from "./close.svg";
+import arrowUp from "./arrow-up.svg";
 import cluboard from "./cluboard.png";
 import portfolio from "./portfolio.jpg";
 import recruitment from "./recruitment.png";
@@ -13,6 +14,7 @@ import lego from "./lego.png";
 import ethan from "./ethan.png";
 
 export {
+  arrowUp,
   profilePic,
   menu,
   close,
