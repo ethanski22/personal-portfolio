@@ -12,6 +12,7 @@ import openai from "./openai.png";
 import unity from "./unity.png";
 import lego from "./lego.png";
 import ethan from "./ethan.png";
+import ES from "./ES.png";
 
 export {
   arrowUp,
@@ -27,5 +28,6 @@ export {
   openai,
   unity,
   lego,
-  ethan
+  ethan,
+  ES
 };
