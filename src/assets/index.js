@@ -13,6 +13,8 @@ import unity from "./unity.png";
 import lego from "./lego.png";
 import ethan from "./ethan.png";
 import ES from "./ES.png";
+import KrogerIcon from "./KrogerIcon.png"
+import letta from "./LettaIcon.png"
 
 export {
   arrowUp,
@@ -29,5 +31,7 @@ export {
   unity,
   lego,
   ethan,
-  ES
+  ES,
+  KrogerIcon,
+  letta
 };

@@ -3,7 +3,9 @@ import {
   lcs,
   openai,
   unity,
-  lego
+  lego,
+  KrogerIcon,
+  letta
 } from "../assets";
 
 import {
@@ -267,7 +269,7 @@ export const experiences = [
     positions: [
       {
         title: "Quality Assurance Co-op",
-        duration: "Jan 2025 - Present",
+        duration: "Jan 2025 - May 2025",
         content: [
           {
             text: "Collaborated with developers to test and validate 5+ new features monthly, ensuring seamless functionality and optimal performance across platforms",
@@ -296,6 +298,35 @@ export const experiences = [
         ]
       }
     ]
+  },
+  {
+    organisation: "Kroger, Cincinnati, OH",
+    logo: KrogerIcon,
+    link: "https://www.kroger.com",
+    positions: [
+      {
+        title: "Software Engineer Co-op",
+        duration: "Aug 2025 - Present",
+        content: [
+          {
+            text: "Migrated 10+ clusters and microservices to the latest Harness and Rancher platforms, improving deployment reliability and reducing maintenance overhead",
+            link: "",
+          },
+          {
+            text: "Optimized Dockerfiles and CI/CD pipelines, cutting build times by ~20% and simplifying service workflows",
+            link: "",
+          },
+          {
+            text: "Constructed and tested Spring Boot microservices and REST APIs",
+            link: "",
+          },
+          {
+            text: "Collaborated with my team to integrate changes into a multi-region Kubernetes environment",
+            link: "",
+          }
+        ]
+      }
+    ]
   }
 ]; 
 
@@ -303,6 +334,37 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
+    title: "Autonomous NPC using Letta",
+    github: "https://github.com/ethanski22/AI-and-Python",
+    link: "https://github.com/ethanski22/AI-and-Python",
+    image: letta,
+    content:
+      "In this project I will be creating a program that can attach itself to an NPC in Unreal or Unity to make it think for itself",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
+      {
+        id: "icon-2",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-3",
+        icon: TbBrandCSharp,
+        name: "C#"
+      },
+      {
+        id: "icon-4",
+        icon: letta,
+        name: "Letta"
+      },
+    ],
+  },
+  {
+    id: "project-2",
     title: "OpenAI API",
     github: "https://github.com/ethanski22/AI-and-Python",
     link: "https://github.com/ethanski22/AI-and-Python",
@@ -333,7 +395,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-3",
     title: "Deck Builder Game",
     github: "https://github.com/ethanski22/firstDeckBuilder",
     link: "https://github.com/ethanski22/firstDeckBuilder",
@@ -354,7 +416,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
     title: "Engineering Design Project",
     image: lego,
     content:
