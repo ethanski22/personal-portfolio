@@ -1,4 +1,4 @@
-import profilePic from "./profile-pic.jpg"; // Change the picture to a better quality
+import profilePic from "./EthanSkowronski.jpg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
@@ -14,7 +14,7 @@ import lego from "./lego.png";
 import ethan from "./ethan.png";
 import ES from "./ES.png";
 import KrogerIcon from "./KrogerIcon.png"
-import letta from "./LettaIcon.png"
+import letta from "./letta.png"
 
 export {
   arrowUp,

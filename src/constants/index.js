@@ -47,6 +47,7 @@ import {
   FaAws
 } from "react-icons/fa";
 
+import { MdOutlineMemory } from "react-icons/md";
 
 import { DiCss3, DiSqllite } from "react-icons/di";
 
@@ -96,7 +97,7 @@ export const educationList = [
     duration: "August 2022 - May 2027",
     content1: "Major: Computer Science",
     content2: "Accepted into the ACCEND program, a 5-year program that allows students to earn a Bachelor's and Master's degree in 5 years.",
-    content3: "GPA: 3.52"
+    content3: "GPA: 3.56"
   }
 ];
 
@@ -263,6 +264,39 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
+    organisation: "Kroger, Cincinnati, OH",
+    logo: KrogerIcon,
+    link: "https://www.kroger.com",
+    positions: [
+      {
+        title: "Software Engineer Co-op",
+        duration: "Aug 2025 - Present",
+        content: [
+          {
+            text: "Migrated 10+ clusters and microservices to the latest Harness and Rancher platforms, improving deployment reliability and reducing maintenance overhead",
+            link: "",
+          },
+          {
+            text: "Optimized Dockerfiles and CI/CD pipelines, cutting build times by ~20% and simplifying service workflows",
+            link: "",
+          },
+          {
+            text: "Constructed and tested Spring Boot microservices and REST APIs",
+            link: "",
+          },
+          {
+            text: "Collaborated with my team to integrate changes into a multi-region Kubernetes environment",
+            link: "",
+          },
+          {
+            text: "Tools: Java, Spring Boot, GitHub, Postman, Docker, Kubernetes, Rancher, Harness, IntelliJ",
+            link: "",
+          }
+        ]
+      }
+    ]
+  },
+  {
     organisation: "London Computer Systems, Cincinnati, OH",
     logo: lcs,
     link: "https://www.lcs.com",
@@ -293,35 +327,6 @@ export const experiences = [
           },
           {
             text: "Tools: Jira, C#, HTML, CSS, TypeScript, GitLab, Kubernetes, VSCode, Insomnia, Rancher, HeidiSQL",
-            link: "",
-          }
-        ]
-      }
-    ]
-  },
-  {
-    organisation: "Kroger, Cincinnati, OH",
-    logo: KrogerIcon,
-    link: "https://www.kroger.com",
-    positions: [
-      {
-        title: "Software Engineer Co-op",
-        duration: "Aug 2025 - Present",
-        content: [
-          {
-            text: "Migrated 10+ clusters and microservices to the latest Harness and Rancher platforms, improving deployment reliability and reducing maintenance overhead",
-            link: "",
-          },
-          {
-            text: "Optimized Dockerfiles and CI/CD pipelines, cutting build times by ~20% and simplifying service workflows",
-            link: "",
-          },
-          {
-            text: "Constructed and tested Spring Boot microservices and REST APIs",
-            link: "",
-          },
-          {
-            text: "Collaborated with my team to integrate changes into a multi-region Kubernetes environment",
             link: "",
           }
         ]
@@ -358,7 +363,7 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: letta,
+        icon: MdOutlineMemory,
         name: "Letta"
       },
     ],
@@ -524,8 +529,8 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Ethan Skowronski",
     githubUsername: 'ethanski22',
-    tagLine: "Third Year Student at UC | Machine Learning | Python | C#",
-    intro: "I am a third year student at the University of Cincinnati studying Computer Science. Recently I was accepted into the ACCEND program where I'll be able to complete my masters in Artificial Intelligence at the same time as my undergrad degree."
+    tagLine: "Fourth Year Student at UC | Machine Learning | Python | C#",
+    intro: "I am a fourth year student at the University of Cincinnati studying Computer Science. Recently I was accepted into the ACCEND program where I'll be able to complete my masters in Artificial Intelligence at the same time as my undergrad degree."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
